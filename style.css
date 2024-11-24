@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    border: 15px solid black;
+    width: 450px;
+    height: 450px;
+    display: flex;
+}
+
+h1, #chgsize {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* border: 1px solid black; */
+}
+
+.column {
+    /* border: 1px solid black; */
+    flex-grow: 1;    
+}
+
+button {
+    padding: 16px;
+    font-size: 20px;
+}
